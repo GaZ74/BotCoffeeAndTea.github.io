@@ -44,12 +44,15 @@ footer {
 }
 
 .logo {
-    width: 150px;        
+    width: 150px;
+    height: auto;        
     display: block;
     margin: 0 auto 10px; 
 }
 
-img {
+.intro img,
+.gallery img,
+.menu img {
   max-width: 100%;
   height: auto;
   display: block;
