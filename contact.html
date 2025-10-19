@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact Us - My Favorite Coffee Shop</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <img src="images/Logo.jpg" alt="Coffee Shop Logo" class="logo">
+    <h1>Contact Us</h1>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="menu.html">Menu</a>
+      <a href="gallery.html">Gallery</a>
+      <a href="contact.html">Contact</a>
+      <a href="map.html">Map</a>
+      <a href="about.html" class="active">About</a>
+    </nav>
+  </header>
+
+  <section class="contact-form">
+  <h2>Order & Feedback Form</h2>
+  <form action="#" method="post">
+    <fieldset>
+      <legend>Customer Information</legend>
+
+      <label for="fullname">Full Name:</label>
+      <input type="text" id="fullname" name="fullname" required><br><br>
+
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" required><br><br>
+
+      <label for="phone">Phone:</label>
+      <input type="tel" id="phone" name="phone" pattern="[0-9]{10}" placeholder="0123456789" required><br><br>
+
+      <label for="birthday">Birthday:</label>
+      <input type="date" id="birthday" name="birthday"><br><br>
+
+      <label for="drink">Select your favorite drink:</label>
+      <select id="drink" name="drink">
+        <option value="coffee">Coffee</option>
+        <option value="milk-tea">Milk Tea</option>
+        <option value="fruit-tea">Fruit Tea</option>
+        <option value="matcha">Matcha Latte</option>
+      </select><br><br>
+
+      <label>Drink Size:</label><br>
+      <input type="radio" id="small" name="size" value="small">
+      <label for="small">Small</label>
+      <input type="radio" id="medium" name="size" value="medium">
+      <label for="medium">Medium</label>
+      <input type="radio" id="large" name="size" value="large">
+      <label for="large">Large</label><br><br>
+
+      <label>Extras:</label><br>
+      <input type="checkbox" id="Boba" name="extras" value="Boba">
+      <label for="Boba">Boba</label>
+      <input type="checkbox" id="Cheese" name="extras" value="Cheese">
+      <label for="Cheese">Cheese Cream</label>
+      <input type="checkbox" id="Matcha" name="extras" value="Matcha">
+      <label for="Matcha">Matcha Cream</label><br><br>
+
+      <label for="rating">Rate our drinks:</label>
+      <input type="range" id="rating" name="rating" min="1" max="5"><br><br>
+
+      <label for="color">Favorite cup color:</label>
+      <input type="color" id="color" name="color"><br><br>
+
+      <label for="quantity">Number of drinks:</label>
+      <input type="number" id="quantity" name="quantity" min="1" max="10" value="1"><br><br>
+
+      <label for="feedback">Additional Feedback:</label><br>
+      <textarea id="feedback" name="feedback" rows="4" cols="40" placeholder="Write your feedback here..."></textarea><br><br>
+
+      <input type="hidden" name="source" value="contact_page">
+      <progress value="80" max="100"></progress> Form completion<br><br>
+
+      <input type="submit" value="Submit">
+      <input type="reset" value="Reset">
+    </fieldset>
+  </form>
+</section>
+
+
+  <section class="contact-info">
+    <h2>☕ Visit Our Coffee Shop</h2>
+    <p><strong>Address:</strong> 56 Trần Hưng Đạo, Phường 1, Vung Tau, Vietnam.</p>
+    <p><strong>Phone:</strong> 078 533 0124</p>
+    <p><strong>Facebook:</strong> https://www.facebook.com/trasuabotngonnhatvungtau</p>
+</section>
+  <footer>
+    <p>© 2025 My Favorite Coffee Shop Project</p>
+  </footer>
+</body>
+</html>
